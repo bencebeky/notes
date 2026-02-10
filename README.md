@@ -6,12 +6,17 @@
 * rotational latency
 * read and write entire sectors
 * sequential I/O cheaper
+* pass around the ring!
 
 ## solid state drives
 
 * memory cell, string, array, page, blocks, plane, die, package, SSD
 * page can be read/written, block can be erased
 * 0.1 ms
+
+## memory
+
+* reads are cached, cache is much faster
 
 ## why do we care
 
